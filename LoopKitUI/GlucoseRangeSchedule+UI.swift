@@ -16,7 +16,7 @@ extension GlucoseRangeSchedule.Override.Context {
         case .preMeal:
             return LocalizedString("Pre-Meal", comment: "Title for the pre-meal override range")
         case .remoteTempTarget:
-            return NSLocalizedString("RemoteTempTarget", comment: "Title for the remote temp target override range")
+            return LocalizedString("Nightscout", comment: "Title for the remote temp target override range")
         }
     }
 }
